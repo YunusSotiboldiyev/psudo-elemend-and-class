@@ -1,0 +1,116 @@
+body {
+     background-color: #181818;
+     color: #fff;
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: 0;
+ }
+
+ .container {
+     display: flex;
+     gap: 20px;
+     height: auto;
+     padding: 20px;
+     border-radius: 10px;
+ }
+
+ .card{
+     background-color: #383838;
+     padding: 30px ;
+     text-align: center;
+     border-radius: 10px;
+     width: 300px;
+     display: block;
+     height: 80%;
+ }
+.card1, .card2{
+    margin-top: 30px;
+}
+ .card h2 {
+     margin-bottom: 10px;
+ }
+
+ .card .price {
+     font-size: 36px;
+     font-weight: bold;
+     margin-bottom: 5px;
+ }
+
+ .card .price-old {
+     font-size: 18px;
+     color: #777;
+     text-decoration: line-through;
+ }
+
+ .card .per-month {
+     font-size: 14px;
+ }
+
+ .card ul {
+     list-style: none;
+     padding: 0;
+     margin-top: 20px;
+ }
+
+ .card li {
+     margin-bottom: 10px;
+ }
+
+ .card li:before {
+     content: "✔️";
+     color: #145fa0;
+     display: inline-block;
+     margin-right: 10px;
+ }
+
+ .button {
+     background-color: #145fa0;
+     color: #fff;
+     padding: 15px 30px;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+     transition:0.3s ease;
+     margin-top: 20px;
+ }
+
+ .button:hover {
+     background-color: #0088ff;
+     transition:0.3s ease;
+ }
+
+ .most-popular {
+     display: inline-block;
+     height: 1%;
+     width: 320px;
+     background-color: #145fa0;
+     color: #fff;
+     padding: 15px 20px;
+     border-radius: 5px 5px 0 0;
+     font-size: 14px;
+     text-align: center;
+ }
+ .last{
+    margin-top: 30px;
+     height: 93%;
+ }
+ .last button{
+margin: 0;
+}
+ .card:hover{
+    margin-top:0;
+    background-color: #4a9ee8;
+    transition:0.9s ease;
+ }
+ .last:hover{
+    margin-top: 0;
+    transition:1s ease;
+ }
+ .last .card{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+ }
